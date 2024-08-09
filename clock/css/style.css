@@ -1,0 +1,47 @@
+#clock{
+    height:400px;
+    width: 400px;
+    background-image: url('../img/clock.png');
+    background-size: cover;
+    border: 1px solid black;
+    margin:100px auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 5px inset black;
+    position: relative;
+}
+#hr{
+    height:120px;
+    width: 3px;
+    background-color: blue;
+    position: absolute;
+    left: 198.5px;
+    top: 80px;
+}
+#hr,#min,#sec,#point{
+    transform-origin: bottom;
+}
+#min{
+    height: 150px;
+    width: 2px;
+    background-color:magenta;
+    position: absolute;
+    left: 199px;
+    top: 50px;
+}
+#sec{
+    height: 170px;
+    width: 1px;
+    background-color: brown;
+    position: absolute;
+    left: 199.5px;
+    top: 30px;
+}
+#point{
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+    left: 195px;
+    top: 195px;
+    position: absolute;
+}
